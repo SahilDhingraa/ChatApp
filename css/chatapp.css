@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #11191f;
+    font-size: larger;
+    color: #9ba1a5;
+}
+#box {
+    z-index: 1;
+    position: fixed;
+    background-color: #01a885;
+    color: #000;
+    width: 100%;
+    height: 7vh;
+    outline: 2px solid black;
+}
+#chatApp {
+    color: #202d32;
+    font-weight: 600;
+    position: relative;
+    top: 12px;
+    font-size: 20px;
+    left: 48vw;
+    font-family: 'Jost', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.foot {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 6vh;
+    bottom: 0;
+}
+
+#text {
+    outline: none;
+    border: none    ;
+    color: white;
+    background-color: #2a3843;
+    position: relative;
+    left: 20px;
+    width: 90vw;
+    height: 6vh;
+    bottom: 20px;
+    font-size: larger;
+    border-radius: 3vh;
+    padding-left: 20px;
+    padding-right: 50px;
+
+}
+
+#publish {
+    background-color: #01a885;
+    position: relative;
+    bottom: 19px;
+    height: 5vh;
+    width: 5vh;
+    left: -26px;
+    border-radius: 2.5vh;
+    border: none;
+}
+#publish:active{
+    background-color: #02654f;
+}
+button img{
+    color: white;
+    position: relative;
+    top: 3px;
+    height: 20px;
+}
+#content{
+    padding-top: 8vh;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.box{
+    background-color: #202d32;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    bottom: 0;
+}
+#content p{
+    font-family: 'Poppins', sans-serif;
+    word-wrap: break-word;
+    background-color: #067962;
+    color: #000;
+    border-radius: 20px 0 0 20px;
+    padding-left: 10px;
+    width: 30vw;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+}
+#content div{
+    font-family: 'Poppins', sans-serif;
+    word-wrap: break-word;
+    background-color: #202d32;
+    color: rgba(255, 255, 255, 0.559);
+    border-radius: 0 20px 20px 0;
+    padding-left: 10px;
+    padding: 20px;
+    width: 30vw;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+#content p{
+    position: relative;
+    left: 64vw;
+}
+#chatApp a{
+    text-decoration: none;
+    color: #202d32;
+}

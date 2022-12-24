@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #11191f;
+    color: white;
+    overflow: hidden;
+}
+.image{
+    position: absolute;
+    left: 43vw;
+    top: 10vh;
+    width: 200px;
+}
+.container {
+    position: relative;
+    top: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container input,
+.password input {
+    padding-left: 10px;
+    padding-right: 40px;
+    width: 300px;
+    height: 40px;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    background-color: #2a3843;
+    color: aliceblue;
+}
+
+input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 157px;
+    top: -37px;
+}
+button {
+    background-color: #3ccf50;
+    color: aliceblue;
+    position: relative;
+    top: -23px;
+    width: 172px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+button:active{
+    background-color: #01a885;
+}

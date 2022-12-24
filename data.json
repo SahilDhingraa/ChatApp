@@ -1,0 +1,61 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "sahil",
+      "password": "guava"
+    },
+    {
+      "username": "naveen",
+      "password": "ooga",
+      "id": 2
+    },
+    {
+      "username": "brave",
+      "password": "brave",
+      "id": 3
+    },
+    {
+      "username": "crome",
+      "password": "crome",
+      "id": 4
+    }
+  ],
+  "chat": [
+    {
+      "id": 1,
+      "username": "sahil",
+      "text": "Guava Is Here For You"
+    },
+    {
+      "username": "sahil",
+      "text": "hiiiii",
+      "id": 2
+    },
+    {
+      "username": "crome",
+      "text": "yo",
+      "id": 3
+    },
+    {
+      "username": "brave",
+      "text": "yooooo",
+      "id": 4
+    },
+    {
+      "username": "brave",
+      "text": "hi",
+      "id": 5
+    },
+    {
+      "username": "sahil",
+      "text": "naaaa",
+      "id": 6
+    },
+    {
+      "username": "naveen",
+      "text": "booooooooyah",
+      "id": 7
+    }
+  ]
+}
