@@ -1,4 +1,4 @@
-#ChatApp
+# ChatApp
 
 "npm install -g json-server" </br>
 "json server --watch {filename}.json" </br>
